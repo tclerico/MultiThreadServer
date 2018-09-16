@@ -1,0 +1,25 @@
+This directory contains the following files:
+
+  README:       this file
+
+  Makefile:     to compile example_thread, server, and client, just
+                type "make" or "make all".  Make sure you read
+                this Makefile to understand how the various libraries
+                get linked into the various executables.
+
+  common.[c|h]: some code that is useful to both the server and client
+
+  server.c:     the source code for the single-threaded server
+
+  client.c:     the source code for a single-threaded test client
+
+  example_thread.c:  an example multithreaded program that uses pthreads
+
+  threadpool.[c|h]: the code you will modify to implement a thread pool
+
+  threadpool_test.c: some sample code that invokes a threadpool
+
+  lib: a directory containing a library that shields you from
+                  needing to understand how to create and manipulate
+                  network sockets.  Feel free to read the code in here
+                  if you're curious, though.
